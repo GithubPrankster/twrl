@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://assets/scripts/diag.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+en_name = "Icosphere"
+pt_name = "Icoesfera"
+en_init = "Hello there, eyed friend. Wish to rest? The journey must have been harsh for your new sentience."
+pt_init = "Olá, amigo olhudo. Quer descançar? A jornada deve ter sido muito para sua nova mente."
+en_diag = [ "Sometimes I read books. Not Cube's though, he keeps stopping me...", "Did you know cookies always land in the tasty side? Learned the hard way today.", "Considering the instability of this dimension, some day it is bound to collapse. Just saying.", "Would you take a photo later? I heard it captures the moment forever.", "If you want to use the Ponstation Two, go ahead, Cube's busy. Usual.", "Say 'Say Yes' backwards. Sounds about the same, right? Huh.." ]
+pt_diag = [ "As vezes leio livros. Não leio os de Cubo já que ele fica chateado.", "Sabia que cookies sempre caem no lado gostoso? Aprendi hoje.", "Considerando o tão instável essa dimensão é, irá collapsar a qualquer hora. Só falando.", "Tiraria uma foto depois? Ouvi que captura o momento para sempre.", "Se quiser usar o Prestrecho Dois, pode ir. Cubo está ocupado, como de costume.", "Diga 'O galo no lago' em reverso. Mesma frase, não?" ]

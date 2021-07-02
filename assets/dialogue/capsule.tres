@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://assets/scripts/diag.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+en_name = "Capsule"
+pt_name = "Capsula"
+en_init = "Oh, hello you. I was here giving Cone a round at Go."
+pt_init = "Ah, Olá. Estava desafiando Cone em Go agora."
+en_diag = [ "It requires a great deal of time to learn these games. Thankfully time is a suggestion.", "Cone will learn someday, I'm sure.", "If you want, later we could have a match too. You seem cool.", "Watch as I absolutely obliterate... this formation.", "Ever played Sternhalma? Yes, it's that 'Chinese Checkers' thing.", "Get comfy on the pillows, this will take some time." ]
+pt_diag = [ "Muito tempo é requerido para aprender jogos. Mas aqui não há tempo, né?", "Cone irá aprender. Eventualmente.", "Se quiser, podemos ter uma partida depois. Você parece legal.", "Olhe enquanto eu destruo sem piédade... essa formação.", "Já jogou Sternhalma? Sim, são aquelas 'Damas Chinesas'.", "Fique comfortável nos travisseiros, isso vai demorar." ]

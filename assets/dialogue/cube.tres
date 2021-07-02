@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://assets/scripts/diag.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+en_name = "Cube"
+pt_name = "Cubo"
+en_init = "Sup. You probably swooped here with a wormhole. Don't worry, we all did."
+pt_init = "Opa. Veio aqui por um buraco de minhoca? Fica frio, todos vem."
+en_diag = [ "You ever watch this thing called 'anime'? It's so dope.", "Cone is my sworn rival when it comes to gaming. Only they can challenge my rule.", "Did humans always have big swords and crazy magic spells?", "Why yes, I do read only the best manga. How did you know?", "Ask me anything about Magic Academy Girls W. I know it all", "I wonder what the internet thing is like. Do they have cartoons there?" ]
+pt_diag = [ "Já assistiu 'Anime'? É muito louco.", "Cone é o meu rival eterno em games. Somente ele pode desafiar meu poder.", "Os humanos sempre tiveram espadões e feitiços loucos?", "Mas é claro que leio os melhores mangas. Como sabia?", "Me pergunte tudo sobre Calouras Mágicas X. Irei saber.", "Eu penso as vezes sobre essa tal de Internet. Tem gibi lá?" ]

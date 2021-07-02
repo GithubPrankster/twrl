@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://assets/scripts/diag.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+en_name = "Cone"
+pt_name = "Cone"
+en_init = "Jeez, Capsule- Hey, fella..!"
+pt_init = "Poxa Capsula- E aí, cara?"
+en_diag = [ "And no, still losing to Capsule here.", "Maybe if it was Cube, it would be fair. Alas.", "You can switch the boombox song if you want. I put the best tunes only.", "Capsule is a board genius. Destroys you in chess, backgammon, even ludo! How?!", "They'll dread me the day I win. As it should be, muahahaha!", "Look fella, all I know is that Go just isn't for me." ]
+pt_diag = [ "E ainda estou perdendo aqui, aliás.", "Se fosse Cubo, seria algo mais honesto...", "Pode mudar o som, botei só o melhor.", "Capsula é uma genia do tabuleiro. Te destroi até em ludo! Não é louco?", "Irão ter pavor de mim o dia eu vencer.. Ótimo! Hahaha!", "Olhe meu chapa, hoje entendi que Go não é pra mim." ]

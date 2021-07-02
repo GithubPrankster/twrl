@@ -11,7 +11,7 @@
 load_path = "res://.import/ico_look.png-94701324a19f91f0218a8d8a66f84d33.stex"
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 32, 17 )
+extents = Vector2( 24, 16 )
 
 [node name="Node2D" type="Node2D"]
 
@@ -29,14 +29,12 @@ __meta__ = {
 }
 
 [node name="diagbox" type="Sprite" parent="scr"]
-modulate = Color( 1, 1, 1, 0.752941 )
-position = Vector2( -1.38, -5.69 )
+position = Vector2( -1, -5 )
 texture = ExtResource( 4 )
 offset = Vector2( 84, 68 )
 
 [node name="flags" type="Sprite" parent="scr"]
-position = Vector2( 304, 8.5 )
-scale = Vector2( 0.5, 0.5 )
+position = Vector2( 294, 18 )
 texture = ExtResource( 2 )
 hframes = 2
 
@@ -47,11 +45,10 @@ script = ExtResource( 5 )
 shape = SubResource( 2 )
 
 [node name="switch_info" type="Label" parent="scr"]
-visible = false
-margin_left = 70.0
-margin_top = 206.617
-margin_right = 261.0
-margin_bottom = 237.617
+margin_left = 69.0
+margin_top = 207.0
+margin_right = 260.0
+margin_bottom = 238.0
 text = "Switch between Cone/Capsule
 by pressing S."
 align = 1
@@ -60,10 +57,10 @@ __meta__ = {
 }
 
 [node name="text" type="Label" parent="scr"]
-margin_left = 9.77275
-margin_top = 18.2046
-margin_right = 155.773
-margin_bottom = 106.205
+margin_left = 10.0
+margin_top = 19.0
+margin_right = 156.0
+margin_bottom = 107.0
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
@@ -78,7 +75,8 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="player" type="AudioStreamPlayer2D" parent="scr"]
-position = Vector2( 160, 120 )
+[node name="player" type="AudioStreamPlayer" parent="scr"]
 stream = ExtResource( 3 )
 volume_db = -19.0
+
+[connection signal="clicked" from="scr/flags/Area2D" to="scr" method="_on_Area2D_clicked"]
