@@ -1,3 +1,4 @@
+![lol](icon.png)
 # The Weird Room: Lightstorm
 
 The game about weird shapes, dimensional troubles and lookin' around. A remake, in fact.
